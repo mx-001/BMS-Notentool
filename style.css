@@ -1,0 +1,47 @@
+body, html {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 2rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font-family: 'Arial Black';
+    display: inline-flex;
+    align-items: center;
+}
+.subtitle {
+    font-family: 'Arial Black';
+}
+.note {
+    text-align: right;
+}
+
+.noten  {
+    border-collapse:collapse;
+    border-spacing:0;
+
+}
+.noten td{
+    padding:10px 5px;
+    border-style:solid;
+    border-width:0px;
+    overflow:hidden;
+    word-break:normal;
+}
+.noten th{
+    padding:10px 5px;
+    border-style:solid;
+    border-width:0px;
+    overflow:hidden;
+    word-break:normal;
+}
+
+.table-bold {
+    font-weight: bold;
+}
